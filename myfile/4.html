@@ -28,18 +28,12 @@ body{
   .c4{
     display: inline-block;
   }
-  .c5{
-    display: inline-block;
-  }
-  .c6{
-    display: inline-block;
-  }
   h1{
     font-size: 2.1rem;
     margin-top: 0%;
   }
-  h6 .type{
-    font-size: 1rem; 
+  h4 .type{
+      font-size: 1rem;
       font-family: monospace; 
       overflow: hidden;
       white-space: nowrap; 
@@ -48,8 +42,8 @@ body{
         typing 1s steps(25, end) forwards;
 
   }
-  h6 .type2{
-    font-size: 1rem; 
+  h4 .type2{
+      font-size: 1rem; 
       font-family: monospace;
       text-align:center;
       overflow: hidden;
@@ -60,8 +54,8 @@ body{
         animation-delay: 1s;
 
   }
-  h6 .type3{
-    font-size: 1rem; 
+  h4 .type3{
+      font-size: 1rem; 
       font-family: monospace; 
       overflow: hidden;
       white-space: nowrap; 
@@ -71,20 +65,8 @@ body{
         animation-delay: 2s;
 
   }
-  h6 .type4{
-    font-size: 1rem; 
-      font-family: monospace; 
-
-      overflow: hidden;
-      white-space: nowrap; 
-      width: 0;
-      animation: 
-        typing 1s steps(25, end) forwards;
-        animation-delay: 3s;
-
-  }
-  h6 .type5{
-    font-size: 1rem; 
+  h4 .type4{
+      font-size: 1rem; 
       font-family: monospace; 
 
       overflow: hidden;
@@ -93,18 +75,6 @@ body{
       animation: 
         typing 1s steps(25, end) forwards;
         animation-delay: 4s;
-
-  }
-  h6 .type6{
-    font-size: 1rem; 
-      font-family: monospace; 
-
-      overflow: hidden;
-      white-space: nowrap; 
-      width: 0;
-      animation: 
-        typing 1s steps(25, end) forwards;
-        animation-delay: 5s;
 
   }
   @keyframes typing {
@@ -170,22 +140,18 @@ body{
   <h1 style="color:limegreen;text-shadow: 0 0 6px limegreen;
 ">
 !NC0GN!70</h1>
-        <?php 
-    $a =$_GET['id'];
+        <?php
+
+$a=rand(1,9);
+
 ?>
-        <h6><div class="c1"style="color:limegreen; text-shadow: 0px 0px 10px limegreen;
-"><div class="type">Now from the remaining half </div></div>
+        <h4><div class="c1"style="color:limegreen; text-shadow: 0px 0px 10px limegreen;
+"><div class="type">Now I will give you <?php echo "$a";?> rupees,</div></div>
         <br>
-<div class="c2" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type2">Return the amount which </div></div>
-<br>
-<div class="c3" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type3">I gave you before</div></div><br>
-<div class="c4" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type4">(that is <?php echo "$a";?> rupees)</div></div><br>
-<div class="c5" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type5">***********</div></div><br>
-<div class="c6" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type6">Click next to proceed</div></div></h6>
-
-
+<div class="c2" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type2"> add them as well</div></div>
+</h4><br>
 <span class="action_btn">            
-<a style="text-decoration:none" href="7.php?id=<?php echo $a;?>" style="width: 5em;  height: 2em; font-size: 13px;class="edit_btn" >NEXT</a></button>
+<a style="text-decoration:none" href="5.html?id=<?php echo $a;?>" style="width: 5em;  height: 2em; font-size: 13px;class="edit_btn" >NEXT</a></button>
             </span></td>
             </div>
 
@@ -202,16 +168,6 @@ body{
 </div>
 </div>
 </html>
-
-
-
-
-
-
-
-
-
-
 
 
 

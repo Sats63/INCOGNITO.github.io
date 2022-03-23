@@ -170,21 +170,22 @@ body{
   <h1 style="color:limegreen;text-shadow: 0 0 6px limegreen;
 ">
 !NC0GN!70</h1>
+        <?php 
+    $a =$_GET['id'];
+?>
         <h6><div class="c1"style="color:limegreen; text-shadow: 0px 0px 10px limegreen;
-"><div class="type">Now Divide them into  </div></div>
+"><div class="type">Now from the remaining half </div></div>
         <br>
-<div class="c2" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type2">two equal halves,</div></div>
+<div class="c2" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type2">Return the amount which </div></div>
 <br>
-<div class="c3" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type3">Buy whatever you feel like </div></div><br>
-<div class="c4" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type4">from one of the halves</div></div><br>
+<div class="c3" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type3">I gave you before</div></div><br>
+<div class="c4" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type4">(that is <?php echo "$a";?> rupees)</div></div><br>
 <div class="c5" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type5">***********</div></div><br>
 <div class="c6" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type6">Click next to proceed</div></div></h6>
 
-<?php 
-    $a =$_GET['id'];
-?>
+
 <span class="action_btn">            
-<a style="text-decoration:none" href="6.php?id=<?php echo $a;?>" style="width: 5em;  height: 2em; font-size: 13px;class="edit_btn" >NEXT</a></button>
+<a style="text-decoration:none" href="7.html?id=<?php echo $a;?>" style="width: 5em;  height: 2em; font-size: 13px;class="edit_btn" >NEXT</a></button>
             </span></td>
             </div>
 
@@ -201,6 +202,11 @@ body{
 </div>
 </div>
 </html>
+
+
+
+
+
 
 
 
