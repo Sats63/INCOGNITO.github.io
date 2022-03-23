@@ -196,7 +196,7 @@ body{
 </h6>
 <br>
 <span class="action_btn">            
-<h2><div class="c5" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type6"><a style="text-decoration:none" href="../index.php" style="width: 5em;  height: 2em; font-size: 40px;class="edit_btn" >TRY AGAIN</a></button>
+<h2><div class="c5" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type6"><a style="text-decoration:none" href="../index.html" style="width: 5em;  height: 2em; font-size: 40px;class="edit_btn" >TRY AGAIN</a></button>
 </div></div></h2></span></td>
             </div>
 
