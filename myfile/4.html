@@ -140,13 +140,9 @@ body{
   <h1 style="color:limegreen;text-shadow: 0 0 6px limegreen;
 ">
 !NC0GN!70</h1>
-        <?php
 
-$a=rand(1,9);
-
-?>
         <h4><div class="c1"style="color:limegreen; text-shadow: 0px 0px 10px limegreen;
-"><div class="type">Now I will give you <?php echo "$a";?> rupees,</div></div>
+"><div class="type">Now I will give you <p id="demo"></p> rupees,</div></div>
         <br>
 <div class="c2" style="color:limegreen; text-shadow: 0px 0px 10px limegreen;"><div class="type2"> add them as well</div></div>
 </h4><br>
@@ -154,7 +150,10 @@ $a=rand(1,9);
 <a style="text-decoration:none" href="5.html?id=<?php echo $a;?>" style="width: 5em;  height: 2em; font-size: 13px;class="edit_btn" >NEXT</a></button>
             </span></td>
             </div>
-
+<script>
+              document.getElementById("demo").innerHTML =
+              Math.floor(Math.random() * 10) + 1;
+              </script>
   <div class="w3-center w3-second ">
   <!--<link rel="stylesheet" href="css.css">-->
   <br>
